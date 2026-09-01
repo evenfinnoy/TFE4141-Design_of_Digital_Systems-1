@@ -1,0 +1,49 @@
+$date
+   Tue Sep  1 15:14:22 2026
+$end
+
+$version
+  2025.2
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test_bench $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # Q $end
+$var wire 1 $ QN $end
+$scope module DUT $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # Q $end
+$var wire 1 $ QN $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+1!
+0"
+0#
+1$
+$end
+
+#20000
+0!
+
+#30000
+1"
+1#
+0$
+
+#40000
+0"
+
+#50000
+1!
+1"
+0#
