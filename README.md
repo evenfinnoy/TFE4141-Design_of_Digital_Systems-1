@@ -8,7 +8,7 @@ Here, you will find all VHDL code relevant for the assignements and the term pro
 <img  height="300" alt="image" src="https://github.com/user-attachments/assets/6fbadd0c-8359-4657-84fe-4725508a2efb" />
 
 
-2. Set the Start in value to the extracted Vivado Tutorial directory to ``` <Extract_Dir>/Vivado_Tutorial/ ```.
+2. Set the Start in value to the extracted Vivado Tutorial directory to ``` <Extract_Dir>/Vivado_Tutorial/ ```. Press ``ÒK```.
 3. Create a new project, and specify a ```name``` and a ```project location```. Click ```Next```.
 4. Select ```RTL Project``` as the project type. Click ```Next```.
 5. Press ```Next``` in the ```Add files``` section, since we have no files to add.
