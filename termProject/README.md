@@ -1,5 +1,8 @@
 # Term Project!
 
+## Chosen algorithm
+The algorithm we went for, is called ```Montgomery```.
+
 ## Important dates related to the term project
 | Date | What to do | Description | What to deliver |
 |------|------------|--------------|------------------|
