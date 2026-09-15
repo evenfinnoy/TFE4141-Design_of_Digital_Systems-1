@@ -959,3 +959,7 @@ Det er kjernen i hele trikset: **velg \(q\) slik at divisjonen du til slutt må 
 
 Neste naturlige steg er egentlig å ta akkurat `REDC`-delen og tegne hvordan den kan bygges som **datapath med multiplikatorer, adder/subtraktor, mux og registre**. Det gjør koblingen til VHDL mye tydeligere.
 
+
+# Matematisk bevis
+
+... (Henrik)
