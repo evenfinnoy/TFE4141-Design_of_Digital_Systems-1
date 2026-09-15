@@ -39,6 +39,7 @@ print(result, expected, result == expected)
 
 ###------------------------------------KRITAGYA CODE------------------------------------
 #We should figure out how the code is good for hardware, and what tools/tricks to utilize?
+#^ Best to do that after or before implementing teh high level code
 
 def montgomery_pow(M, e, n):
     """
