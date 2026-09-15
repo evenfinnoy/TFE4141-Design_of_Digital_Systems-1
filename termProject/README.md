@@ -3,6 +3,9 @@
 ## Chosen algorithm
 The algorithm we went for, is called ```Montgomery```.
 
+## Info about the algorithm
+[Link to information](https://cp-algorithms.com/algebra/montgomery_multiplication.html?fbclid=IwY2xjawUWBBRwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMXRaWkRkZXlNNFlZT0tGRlNzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqFbGcdsaTpyl61ZHJNiJkQt31-yHEcL4mc8DHR5wIVMpiUCKyqwZbQwYkb0_aem_gN5JOMcTah0UDj0sVSUAqQ)
+
 ## Important dates related to the term project
 | Date | What to do | Description | What to deliver | Completed |
 |------|------------|--------------|------------------|------|
