@@ -104,7 +104,7 @@ def mod_exp_montgomery(base, exp, n, k=None):
     params = montgomery_setup(n, k)
 
     base_bar = to_montgomery(base, params)
-    result_bar = to_montgomery(1, params)
+    result_bar = to_montgomery(1, params) 
 
     e = exp
     while e > 0:
