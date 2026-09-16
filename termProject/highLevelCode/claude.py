@@ -47,7 +47,6 @@ def montgomery_setup(n, k=None):
         k         bit width used
         n_prime   n' = n^-1 mod r
         r_mod_n   R mod n
-        r2_mod_n  R^2 mod n, used to push numbers into Montgomery form
     """
     if n % 2 == 0:
         raise ValueError("Montgomery reduction needs an odd modulus")
@@ -67,7 +66,6 @@ def montgomery_setup(n, k=None):
         "k": k,
         "n_prime": n_prime,
         "r_mod_n": r % n,
-        "r2_mod_n": (r * r) % n,
     }
 
 
@@ -79,19 +77,13 @@ def redc(x, params):
 
     q = (x % r) * n_prime % r
     a = (x - q * n) // r
-
-    if a >= n:
-        a -= n
-    if a < 0:
-        a += n
+    a = a % n
 
     return a
 
-
 def to_montgomery(a, params):
-    """Converts an ordinary number a into Montgomery form, a_bar = a*R mod n"""
-    return redc(a * params["r2_mod_n"], params)
-
+    """Converts an ordinary number into Montgomery form"""
+    return (a * params["r_mod_n"]) 
 
 def from_montgomery(a_bar, params):
     """Converts a Montgomery form number back into an ordinary number"""
@@ -111,7 +103,7 @@ def mod_exp_montgomery(base, exp, n, k=None):
     """
     params = montgomery_setup(n, k)
 
-    base_bar = to_montgomery(base % n, params)
+    base_bar = to_montgomery(base, params)
     result_bar = to_montgomery(1, params)
 
     e = exp
@@ -132,8 +124,6 @@ if __name__ == "__main__":
     print("n_prime:", params["n_prime"], "expected 5")
 
     x = 37
-    q = (x % params["r"]) * params["n_prime"] % params["r"]
-    print("q:", q, "expected 1")
     print("REDC(37):", redc(x, params))
 
     # A tiny RSA style check: 7^560 mod 561 style sanity test, small numbers
