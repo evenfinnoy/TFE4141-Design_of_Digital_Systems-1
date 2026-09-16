@@ -26,7 +26,7 @@ def egcd(a, b):
 
 def modinv(a, m):
     """Modular inverse of a mod m, using the extended Euclidean algorithm"""
-    g, x, _ = egcd(a % m, m)
+    g, x, _ = egcd(a, m)
     if g != 1:
         raise ValueError("no inverse exists, a and m are not coprime")
     return x % m
@@ -56,6 +56,9 @@ def montgomery_setup(n, k=None):
         k = n.bit_length()
 
     r = 1 << k
+    if r <= n:
+        raise ValueError("r = 2^k must be larger than n")
+
     n_prime = modinv(n, r)
 
     return {
@@ -123,8 +126,8 @@ def mod_exp_montgomery(base, exp, n, k=None):
 
 if __name__ == "__main__":
     # Small numerical check, same numbers as the worked example in the note
-    n = 5
-    r_bits = 3  # r = 2**3 = 8
+    n = 13
+    r_bits = 4  # r = 2**4 = 16
     params = montgomery_setup(n, r_bits)
     print("n_prime:", params["n_prime"], "expected 5")
 
