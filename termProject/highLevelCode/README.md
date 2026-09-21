@@ -26,10 +26,7 @@ Extended Euclidean algorithm:
 https://cp-algorithms.com/algebra/extended-euclid-algorithm.html
 
 Specifications:
-M < n
-r > n
+$M < n$, $r > n$
 
-r = 2^x
-n = 2m - 1
-=> gcd(n,r) = 1
+$r = 2^x$, $n = 2m - 1$ $\rightarrow$ $gcd(n,r) = 1$
 
