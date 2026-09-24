@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.runs/synth_1/mega_adder.tcl"
+  variable script "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.runs/synth_1/mega_adder.tcl"
   variable category "vivado_synth"
 }
 
@@ -63,17 +63,17 @@ create_project -in_memory -part xc7z020clg484-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.cache/wt [current_project]
-set_property parent.project_path C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.cache/wt [current_project]
+set_property parent.project_path C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property ip_cache_permissions disable [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/adder_controller.vhd
-  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/adder_datapath.vhd
-  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/mega_adder.vhd
+  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/adder_controller.vhd
+  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/adder_datapath.vhd
+  C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/mega_adder.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -84,8 +84,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/constrs_1/new/mega_adder_constraints.xdc
-set_property used_in_implementation false [get_files C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/constrs_1/new/mega_adder_constraints.xdc]
+read_xdc C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/constrs_1/new/mega_adder_constraints.xdc
+set_property used_in_implementation false [get_files C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/constrs_1/new/mega_adder_constraints.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

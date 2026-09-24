@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.runs/synth_1'
+HD_PWD='C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

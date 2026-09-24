@@ -3,15 +3,15 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Sep 21 17:09:48 2026
-# Process ID         : 15320
-# Current directory  : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.runs/synth_1
+# Start of session at: Thu Sep 24 16:20:50 2026
+# Process ID         : 4880
+# Current directory  : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.runs/synth_1
 # Command line       : vivado.exe -log mega_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mega_adder.tcl
-# Log file           : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.runs/synth_1/mega_adder.vds
-# Journal file       : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.runs/synth_1\vivado.jou
+# Log file           : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.runs/synth_1/mega_adder.vds
+# Journal file       : C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.runs/synth_1\vivado.jou
 # Running On         : DESKTOP-VHGMIGM
 # Platform           : Windows Server 2016 or Windows 10
-# Operating System   : 19042
+# Operating System   : 19045
 # Processor Detail   : Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
 # CPU Frequency      : 2694 MHz
 # CPU Physical cores : 4
@@ -19,6 +19,6 @@
 # Host memory        : 17090 MB
 # Swap memory        : 2550 MB
 # Total Virtual      : 19641 MB
-# Available Virtual  : 7362 MB
+# Available Virtual  : 5748 MB
 #-----------------------------------------------------------
 source mega_adder.tcl -notrace

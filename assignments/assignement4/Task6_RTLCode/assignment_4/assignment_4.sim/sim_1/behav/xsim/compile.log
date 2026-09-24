@@ -1,8 +1,8 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/adder_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/adder_controller.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'adder_controller'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/adder_datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/adder_datapath.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'adder_datapath'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sources_1/new/mega_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sources_1/new/mega_adder.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'mega_adder'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.srcs/sim_1/new/mega_adder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.srcs/sim_1/new/mega_adder_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'mega_adder_tb'

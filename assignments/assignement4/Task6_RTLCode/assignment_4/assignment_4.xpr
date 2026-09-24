@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/krita/Desktop/DesignAvDigitaleSystemer/assignment_4/assignment_4/assignment_4.xpr">
+<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/krita/Desktop/DesignAvDigitaleSystemer/TFE4141-Design_of_Digital_Systems-1/assignments/assignement4/Task6_RTLCode/assignment_4/assignment_4.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="354babf8d50e4ccd91894a31e15a92ae"/>
@@ -57,7 +57,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="12"/>
+    <Option Name="WTXSimLaunchSim" Val="13"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>

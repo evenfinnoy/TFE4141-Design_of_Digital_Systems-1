@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1790003386">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1790259648">
   <File Type="PA-TCL" Name="mega_adder.tcl"/>
   <File Type="REPORTS-TCL" Name="mega_adder_reports.tcl"/>
   <File Type="RDS-RDS" Name="mega_adder.vds"/>
